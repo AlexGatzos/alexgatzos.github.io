@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"description\" on type \"MarkdownRemarkFrontmatter\".","locations":[{"line":17,"column":7}]}],"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"/tips-javascript/","previous":null,"next":{"fields":{"slug":"/grep/"},"frontmatter":{"title":"Τρία λάθη που έκανα με την grep"}}}}

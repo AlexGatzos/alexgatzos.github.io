@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alex Gatz]]></title><description><![CDATA[My personal blog.]]></description><link>https://alexgatzos.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 12 May 2019 18:13:40 GMT</lastBuildDate><item><title><![CDATA[Βασικά Javascript Tips]]></title><description><![CDATA[Τι είναι το javascript?Η JavaScript (JS) είναι διερμηνευμένη γλώσσα προγραμματισμού για ηλεκτρονικούς υπολογιστές. Αρχικά αποτέλεσε μέρος…]]></description><link>https://alexgatzos.github.io//tips-javascript/</link><guid isPermaLink="false">https://alexgatzos.github.io//tips-javascript/</guid><pubDate>Sun, 05 May 2019 22:12:03 GMT</pubDate><content:encoded>&lt;div style=&quot;position: relative; border-radius: 0.5em; box-shadow: rgba(79, 90, 109, 0.3) 0px 5px 25px 0px; overflow: hidden; margin-bottom: 1.5em; width: 100%; padding: 0; max-width: 590px;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alex Gatz]]></title><description><![CDATA[My personal blog.]]></description><link>https://alexgatzos.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 31 May 2020 17:09:10 GMT</lastBuildDate><item><title><![CDATA[Τι είναι το CSS]]></title><description><![CDATA[Τι είναι το CSS?Η ονομασία CSS βγαίνει από τις λέξεις Cascading Style Sheets δηλαδή, διαδοχικά φύλλα στυλ. Πρόκειται για μια τεχνολογία…]]></description><link>https://alexgatzos.github.io//tips-css/</link><guid isPermaLink="false">https://alexgatzos.github.io//tips-css/</guid><pubDate>Thu, 14 May 2020 18:22:13 GMT</pubDate><content:encoded>&lt;div style=&quot;position: relative; border-radius: 0.5em; box-shadow: rgba(79, 90, 109, 0.3) 0px 5px 25px 0px; overflow: hidden; margin-bottom: 1.5em; width: 100%; padding: 0; max-width: 590px;&quot;&gt;
+
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/78e685dcbade902de60927f4f1006486/64a11/bg3.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 64.48275862068965%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC2UlEQVQ4yyWTyXLjRhBEebVHIoBurASIfWmAIsUFlEhKokec0NjhkMOWD3OZ//+O5xJ9qGgUgM7KyqyaBGGEdj36x4rd045x843z6ky7O/D9n5+8/fEvf/71wel8pmkbmrokTRO0UiSBTz2PaSS/r3OWVcoknM3koyaMPDwvxNclzq8WlvJx3YwobAVgoKgagigS0JayrnC1Jp9FdHlKX2Q8mJqxLZnMZnPsxkb3CjdzULGFChU6cHACC1tPse1brBs5b2ysLxZTKejaLkUQYdKMuyznybQcuppJHKeEq5DoLSS4eETvAf5J4x2lwG8Oei1FXmzUxsbdOIRbl/CoSVYei0PKZqzY72suh4GXXSuA8znHw5HD8YSOBSTX2KG07NjYotPUU1ixg5UL21o6McL+XoAHl+VrzuPXlvPfPe8/1nz/WDBJ8wLb0fT7nPUlp9vljLc5ex2ztDWPlkvtzKjkXXdbXCO7TaitjMW85L4U7bqGt+2Sl6X5HzBNRVh52S3kQlvzfLNlCEsxRZho9+qoq1wCFZC6CZlE5+bibMNa/n9YtLyNK55XnQBmBQ/jgefDiaEyNPOCfi7t+OJg0jHMBnqvYO35FEUuMohZrhTwXZpszqZr2Q8tl/GO41I0nItDn04bcakT2/uhYtFHrKICE3XEfkysAxIZE19AtZyusA7lucuzK+CubzitDdtexiYRhq9fv/H76ztNYohFr2aqMF5AkZQCaqS9TBj7ZFmGkva1K3MruRHGW9OxNiXbIWeoY2m5KImF4d2poxct1tY9QRjzi/1F5k+c/XTbcSQUSuKT3WdEfsBQFoy9EcCKe5PQlj6TrKjkomLxnDI+bRnNhcqpKBwxRTbn5jo+MtCODLT63CDJtcyk51ImCabMafI5VRaSzDSTXFZKiYNmn7H9KLi7NIzacLBzVirECJtUJRQqpZ7m17OYSi5O+56s65WxFm3VVY7/AFpnZaolsIhcAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;bg3&quot; title src=&quot;/static/78e685dcbade902de60927f4f1006486/b9e4f/bg3.png&quot; srcset=&quot;/static/78e685dcbade902de60927f4f1006486/cf440/bg3.png 148w,
+/static/78e685dcbade902de60927f4f1006486/d2d38/bg3.png 295w,
+/static/78e685dcbade902de60927f4f1006486/b9e4f/bg3.png 590w,
+/static/78e685dcbade902de60927f4f1006486/f9b6a/bg3.png 885w,
+/static/78e685dcbade902de60927f4f1006486/64a11/bg3.png 1160w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Τι είναι το CSS?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Η ονομασία CSS βγαίνει από τις λέξεις Cascading Style Sheets δηλαδή, διαδοχικά φύλλα στυλ. Πρόκειται για μια τεχνολογία ορισμού προβολής δεδομένων σε μια ιστοσελίδα η οποία έρχεται και δένει μαζί με αυτή της HTML η οποία με την σειρά της καθορίζει την δομή μιας σελίδας.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Σύνταξη του CSS:&lt;/h2&gt;
+&lt;p&gt;Ένας κανόνας CSS αποτελείται από τον επιλογέα και μια ομάδα από ορισμούς.&lt;/p&gt;
+&lt;p&gt;Ο επιλογέας μπορεί να είναι μια ετικέτα html την οποία θέλουμε να μορφοποιήσουμε ή ένα δικό μας όνομα το οποίο θα το εφαρμόσουμε σε κάποιο σημείο στον κώδικα html. Οι ορισμοί δηλώνονται ανάμεσα στα σύμβολα με τα άγκιστρα {}. Κάθε ορισμός αφορά μια ιδιότητα, την οποία θέλουμε να μεταβάλουμε και την τιμή την οποία παίρνει. Μεταξύ αυτών των δύο χρησιμοποιείται το σύμβολο άνω-κάτω τελεία :. Στο τέλος κάθε ορισμού υπάρχει το ελληνικό ερωτηματικό ;. Μπορούμε να βάλουμε όσους ορισμούς χρειαζόμαστε για τον κάθε έναν επιλογέα.&lt;/p&gt;
+&lt;p&gt;Ένα εξωτερικό αρχείο .css, για το οποίο αναφερθήκαμε πριν, αποτελείται από μια σειρά κανόνων με κάθε έναν να αφορά έναν ή περισσότερους επιλογείς. Οι κανόνες όμως μπορούν να γραφτούν σε μια μόνο σελίδα στην οποία και θα εφαρμόζονται. Στην περίπτωση αυτή πρέπει να οριστούν στο header κομμάτι της σελίδας.&lt;/p&gt;
+&lt;p&gt;Πρέπει να είμαστε προσεκτικοί με την σύνταξη των κανόνων γενικά επειδή ένα λάθος θα αποτρέψει την εφαρμογή του συγκεκριμένου κανόνα στο οποίο σφάλαμε&lt;/p&gt;
+&lt;h2&gt;Τρόπος γραφής των κανόνων CSS:&lt;/h2&gt;
+&lt;p&gt;Ο τρόπος γραφής των κανόνων έχει να κάνει καθαρά με τον τρόπο εμφάνισης τους. Για παράδειγμα, οι κανόνες στο προηγούμενο παράδειγμα θα μπορούσαν να γραφτούν ως εξής:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;p {
+color:blue; 
+text-align:center;
+}
+
+H1 {  
+font-family: &amp;quot;Times New Roman&amp;quot;, Times, serif;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Τέλος, η χρήση των πεζών ή κεφαλαίων είναι θέμα προτίμησης, δηλαδή δεν υπάρχει διαφορά ότι και αν χρησιμοποιήσουμε.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Βασικά tips για το html]]></title><description><![CDATA[Τι είναι το html?HTML είναι το ακρώνυμο από το Hyper Text Markup Language που σημαίνει γλώσσα χαρακτηρισμού υπερκειμένου. Η χρήση μιας…]]></description><link>https://alexgatzos.github.io//tips-html/</link><guid isPermaLink="false">https://alexgatzos.github.io//tips-html/</guid><pubDate>Thu, 07 May 2020 18:22:13 GMT</pubDate><content:encoded>&lt;div style=&quot;position: relative; border-radius: 0.5em; box-shadow: rgba(79, 90, 109, 0.3) 0px 5px 25px 0px; overflow: hidden; margin-bottom: 1.5em; width: 100%; padding: 0; max-width: 590px;&quot;&gt;
+
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/869bfd56bb815d255df77f4fbfa6c0ae/17443/bgg.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 65.6019656019656%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAGczO1J0QB//8QAGhAAAgMBAQAAAAAAAAAAAAAAAAECAxESE//aAAgBAQABBQKvdjZ6NqLO2RumOxn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQEhAhAx/9oACAEBAAY/Ar5AliXpMs//xAAcEAEBAQABBQAAAAAAAAAAAAABEQAhMUFRYYH/2gAIAQEAAT8hslXy5xmgtyXYnEwJB1sTfRkvQ/N//9oADAMBAAIAAwAAABA37//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EFf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBH/8QAHhABAAMAAAcAAAAAAAAAAAAAAQARITFBUWGhseH/2gAIAQEAAT8QPS/ti8oiE0Et98JipuKs+RUAHtAZQI1t4jdTmWmf/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;bgg&quot; title src=&quot;/static/869bfd56bb815d255df77f4fbfa6c0ae/c739e/bgg.jpg&quot; srcset=&quot;/static/869bfd56bb815d255df77f4fbfa6c0ae/8ee9c/bgg.jpg 148w,
+/static/869bfd56bb815d255df77f4fbfa6c0ae/ebbe7/bgg.jpg 295w,
+/static/869bfd56bb815d255df77f4fbfa6c0ae/c739e/bgg.jpg 590w,
+/static/869bfd56bb815d255df77f4fbfa6c0ae/5413e/bgg.jpg 885w,
+/static/869bfd56bb815d255df77f4fbfa6c0ae/4efde/bgg.jpg 1180w,
+/static/869bfd56bb815d255df77f4fbfa6c0ae/abfc3/bgg.jpg 1770w,
+/static/869bfd56bb815d255df77f4fbfa6c0ae/17443/bgg.jpg 5698w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Τι είναι το html?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HTML είναι το ακρώνυμο από το Hyper Text Markup Language που σημαίνει γλώσσα χαρακτηρισμού υπερκειμένου. Η χρήση μιας γλώσσας χαρακτηρισμού σημαίνει ότι γράφεται πρώτα το κείμενο και έπειτα προσθέτονται ειδικά σύμβολα γύρω από τις λέξεις ή από ολόκληρες προτάσεις ώστε να καθοριστεί η εμφάνιση τους στην οθόνη. Τα ειδικά σύμβολα στην HTML λέγονται ετικέτες (tags). Η HTML διαθέτει ένα πεπερασμένο αριθμό ετικετών που μπορούμε να χρησιμοποιήσουμε. Ωστόσο ο αριθμός αυτός δεν παραμένει σταθερός. Κατά διαστήματα το W3 Consortium, το οποίο ανάπτυξε και διαχειρίζεται τα πρότυπα της HTML, δημοσιεύει νέα πρότυπα στα οποία προσθέτει καινούργιες ετικέτες που καλύπτουν ή διορθώνουν μια λειτουργία στο προηγούμενο πρότυπο. Η τελευταία αναθεώρηση του HTML προτύπου είναι η HTML5&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Τι είναι οι ετικέτες:&lt;/h2&gt;
+&lt;p&gt;Οι ετικέτες ελέγχουν την δομή και την μορφή του κειμένου της ιστοσελίδας. Επίσης παρέχουν πληροφορίες προς τον web browser για την σελίδα που πρόκειται να εμφανίσουν, όπως ο τίτλος της σελίδας ή ο συγγραφέας της&lt;/p&gt;
+&lt;h2&gt;Πώς είναι μια ετικέτα:&lt;/h2&gt;
+&lt;p&gt;Οι HTML ετικέτες γράφονται ανάμεσα στα σύμβολα &amp;#x3C; και &gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;πχ. &amp;lt;όνομα-ετικέτας&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Οι περισσότερες HTML ετικέτες αποτελούνται από μια ετικέτα αρχής και μια ετικέτα τέλους και ανάμεσα σε αυτές υπάρχει το κείμενο που χαρακτηρίζεται από τις ετικέτες αυτές. Η ετικέτα τέλους περιέχει τον χαρακτήρα / πριν το όνομα της ετικέτας&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;πχ. &amp;lt;όνομα-ετικέτας&amp;gt; ... κείμενο ... &amp;lt;/όνομα-ετικέτας&amp;gt;
+πχ. &amp;lt;em&amp;gt;Κείμενο με έμφαση&amp;lt;/em&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Υπάρχουν ορισμένες ετικέτες που δεν έχουν ετικέτες τέλους. Στις ετικέτες αυτές, πριν από το σύμβολο &gt; τοποθετούμε τον χαρακτήρα /&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;πχ. &amp;lt;όνομα-ετικέτας /&amp;gt;
+πχ. &amp;lt;br /&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Το αρχείο που περιέχει HTML ετικέτες λέγεται HTML αρχείο και έχει επέκταση .html ή .htm (εκτός βέβαια κι’ αν η ιστοσελίδα είναι δυναμική οπότε έχει επεκτάσεις όπως .php. asp, jsp κτλ.). Τα αρχεία αυτά είναι απλά αρχεία κειμένου σε μορφή ASCII και δεν περιέχουν πληροφορίες για το περιβάλλον ή τα προγράμματα με τα οποία θα λειτουργήσουν. Μπορείτε να ανοίξετε και να δείτε τα αρχεία htm ή html με οποιονδήποτε επεξεργαστή κειμένου, π.χ. Σημειωματάριο (Notepad) των Windows&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Βασικά Javascript Tips]]></title><description><![CDATA[Τι είναι το javascript?Η JavaScript (JS) είναι διερμηνευμένη γλώσσα προγραμματισμού για ηλεκτρονικούς υπολογιστές. Αρχικά αποτέλεσε μέρος…]]></description><link>https://alexgatzos.github.io//tips-javascript/</link><guid isPermaLink="false">https://alexgatzos.github.io//tips-javascript/</guid><pubDate>Tue, 05 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;div style=&quot;position: relative; border-radius: 0.5em; box-shadow: rgba(79, 90, 109, 0.3) 0px 5px 25px 0px; overflow: hidden; margin-bottom: 1.5em; width: 100%; padding: 0; max-width: 590px;&quot;&gt;
 
   &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/80e74dc6ce709e7a71ada8c91bc55a6c/33840/bg.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
@@ -34,7 +104,7 @@ NaN
 false&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Όπως μπορείτε να δείτε, ακόμη και μια κενή συμβολοσειρά θεωρείται παραπλανητική αξία. Όλες οι άλλες τιμές, πέραν των προαναφερθέντων, είναι τραγικές τιμές.&lt;/p&gt;
 &lt;h2&gt;Μετατροπή τύπου: Αριθμός και συμβολοσειρά.&lt;/h2&gt;
-&lt;p&gt;Ένα από τα πιο κοινά πράγματα που μπορείτε να βρείτε τον εαυτό σας να κάνει σε JavaScript χρησιμοποιεί αριθμητικούς τελεστές: +, -, *, /. Αυτοί οι χειριστές περιμένουν τελεστές που είναι αριθμοί. Αλλά υπάρχουν στιγμές που δεν μπορείτε να πάρετε το αποτέλεσμα που αναμένετε, ειδικά όταν χρησιμοποιείτε τον +χειριστή. Αυτό είναι σημαντικό επειδή ο +χειριστής χρησιμοποιείται επίσης για την αλληλοεξαρτώμενη συμβολοσειρά .&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Βασικά tips για το grep]]></title><description><![CDATA[Τι είναι το grep?Το grep (Global Regular Expression Print) (Καθολική Εκτύπωση Κανονικής Έκφρασης) είναι ένα πρόγραμμα βοήθημα της γραμμής…]]></description><link>https://alexgatzos.github.io//tips-grep/</link><guid isPermaLink="false">https://alexgatzos.github.io//tips-grep/</guid><pubDate>Wed, 01 May 2019 18:22:13 GMT</pubDate><content:encoded>&lt;div style=&quot;position: relative; border-radius: 0.5em; box-shadow: rgba(79, 90, 109, 0.3) 0px 5px 25px 0px; overflow: hidden; margin-bottom: 1.5em; width: 100%; padding: 0; max-width: 590px;&quot;&gt;
+&lt;p&gt;Ένα από τα πιο κοινά πράγματα που μπορείτε να βρείτε τον εαυτό σας να κάνει σε JavaScript χρησιμοποιεί αριθμητικούς τελεστές: +, -, *, /. Αυτοί οι χειριστές περιμένουν τελεστές που είναι αριθμοί. Αλλά υπάρχουν στιγμές που δεν μπορείτε να πάρετε το αποτέλεσμα που αναμένετε, ειδικά όταν χρησιμοποιείτε τον +χειριστή. Αυτό είναι σημαντικό επειδή ο +χειριστής χρησιμοποιείται επίσης για την αλληλοεξαρτώμενη συμβολοσειρά .&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Βασικά tips για το grep]]></title><description><![CDATA[Τι είναι το grep?Το grep (Global Regular Expression Print) (Καθολική Εκτύπωση Κανονικής Έκφρασης) είναι ένα πρόγραμμα βοήθημα της γραμμής…]]></description><link>https://alexgatzos.github.io//tips-grep/</link><guid isPermaLink="false">https://alexgatzos.github.io//tips-grep/</guid><pubDate>Fri, 01 May 2020 18:22:13 GMT</pubDate><content:encoded>&lt;div style=&quot;position: relative; border-radius: 0.5em; box-shadow: rgba(79, 90, 109, 0.3) 0px 5px 25px 0px; overflow: hidden; margin-bottom: 1.5em; width: 100%; padding: 0; max-width: 590px;&quot;&gt;
 
   &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/56c5b68c2e69bbeea5a02a87184b8abd/33840/bg.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
